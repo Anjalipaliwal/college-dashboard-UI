@@ -1,0 +1,251 @@
+.card1 {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 700px;
+    position: relative;
+    margin: 20px;
+    border-radius: 10px 
+   }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 700px;
+    position: relative;
+    margin: 20px;
+    border-radius: 10px 
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  img {
+      opacity: 0.4;
+      overflow: hidden;
+      width: 100%
+  }
+  .cat {
+    width: 100%;
+    display: flex;
+  }
+  .containers {
+      position: relative
+  }
+  .top {
+    position: absolute;
+    top: -25px;
+    right: 16px;
+    background: #68a7ff;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size : 13px;
+    padding: 0px 25px;
+    margin-bottom: -13px;
+  }
+  .top-right {
+    position: absolute;
+    top: 25px;
+    right: 16px;
+    background: #f5a626;
+    color: white;
+    border-radius: 3px;
+    padding: 3px;
+    margin-top: 6px;
+  }
+  .top-right span {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .top-right p {
+    padding: 0px;
+    margin: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    border-radius: 25px;
+    background: #fff;
+    color: #000;
+    padding: 1px 3px;
+
+  }
+  .bottom-left  p {
+    padding: 0px 3px;
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+
+  }
+  .bottom-left1 {
+    position: absolute;
+    bottom: 8px;
+    left: 140px;
+    border-radius: 25px;
+    background: #fff;
+    color: #000;
+    padding: 1px 3px
+  }
+  .bottom-left1 p {
+    padding: 0px 3px;
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .bottom-right {
+    position: absolute;
+    bottom: 2px;
+    right: 16px;
+    color:white;
+    font-size: 13px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .overlay {
+    background: #000;
+    z-index: -1
+  }
+
+  .info {
+    display: flex;
+    padding: 1px
+  }
+  
+  .info h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #444;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px;
+    margin-top: 8px;
+    margin-bottom: 4px
+   
+  }
+  .card2 .info h4 {
+    color: #68a7ff;
+  }
+  .rating {
+    font-size: 13px;
+    color: #444;
+  }
+  .rating, h4 {
+    display: inline;
+  }
+  .info p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+    color: #444;
+    font-weight: 600;
+    padding: 0px;
+    margin-top: 10px
+  
+  }
+  .address-title {
+    margin-bottom: 25px
+  }
+  .span-grey {
+    color: #999;
+    font-weight: 600
+  }
+  .span-green {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #4bb89e;
+    font-weight: 800
+  }
+  .span-black {
+    font-weight: 800;
+    color: #000;
+  }
+  .info a {
+    color: #4bb89e;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800
+  }
+  .offer-info {
+    padding: 1px 4px;
+    background: #ccf5e7;
+    margin-left: -16px;
+    padding-left: 14px;
+    border-radius: 5px 45px 45px 5px
+  }
+  .info .price-tag {
+    color: #dd1c26;
+    font-size: 30px;
+    text-align:right ;
+    font-weight: 700;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 0px
+  }
+  .original-rate {
+    font-size: 12px;
+    text-decoration: line-through ;
+    text-align:right;
+    padding: 0px;
+    margin-top: 3px;
+    margin-bottom: 3px
+  }
+ .left-info p {
+    text-align: right;
+  
+  }
+  .not-bold {
+    font-weight: 400
+  }
+ .deal-tag {
+  font-weight: 700;
+  font-family: 'Nunito Sans', sans-serif;
+  background: #4bb89e;
+  color: white;
+ padding: 5px
+ }
+ .rup-icon1 {
+  font-size: 12px;
+  color: #444;
+ }
+
+.rup-icon1, .original-rate {
+  display: inline;
+}
+.rupee-tag1 {
+  text-align: right;
+  margin-top:5px;
+  padding: 2px
+
+}
+.rup-icon2 {
+  color: #dd1c26;
+    font-size: 25px;
+}
+.rup-icon2, .price-tag {
+  display: inline;
+}
+.rupee-tag2 {
+  text-align: right;
+  margin-top:5px;
+  padding: 2p
+}
+.price-area {
+  text-align: right;
+  margin-top: 4px;
+}
+.red-tag {
+  background: #ed2939;
+  color: #fff;
+  padding: 3px;
+  font-size: 12px 
+}
+.red-tag,  .rupee-tag1 {
+  display: inline;
+}
